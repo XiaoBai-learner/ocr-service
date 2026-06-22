@@ -1,0 +1,15 @@
+{
+  "name": "ocr-service",
+  "version": "1.0.0",
+  "description": "Standalone OCR microservice for business card field extraction",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node index.js"
+  },
+  "dependencies": {
+    "axios": "1.9.0",
+    "dotenv": "16.4.5",
+    "express": "4.19.2"
+  }
+}
